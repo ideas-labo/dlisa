@@ -1,0 +1,10 @@
+workload,baseline_b,baseline_T,compared_m,s,label
+Johnny_1280x720_60_short.y4m,80,1.0348999999999997,40,2.0,1
+Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m,80,4.122999999999999,40,2.0,1
+blue_sky_1080p25_short.y4m,80,1.4609999999999996,40,2.0,1
+pedestrian_area_1080p25_short.y4m,80,1.7902000000000005,40,2.0,1
+riverbed_1080p25_short.y4m,80,3.5155000000000007,40,2.0,1
+sd_bridge_close_cif_short.y4m,80,0.10669999999999993,40,2.0,1
+sd_city_4cif_short.y4m,80,0.6446999999999998,40,2.0,1
+sd_crew_cif_short.y4m,80,0.14570000000000008,40,2.0,1
+sintel_trailer_2k_720p24_short.y4m,80,0.2617999999999999,40,2.0,1

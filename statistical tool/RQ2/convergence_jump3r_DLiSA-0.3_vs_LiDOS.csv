@@ -1,0 +1,7 @@
+workload,baseline_b,baseline_T,compared_m,s,label
+beethoven.wav,80,2.6654999999999998,40,2.0,1
+dual-channel.wav,80,0.9148999999999998,40,2.0,1
+helix.wav,80,1.4309000000000003,40,2.0,1
+single-channel.wav,80,0.6794000000000001,40,2.0,1
+speech.wav,80,1.1789999999999996,40,2.0,1
+sweep.wav,80,0.3096,40,2.0,1
