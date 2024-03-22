@@ -15,7 +15,9 @@ This repository contains the **key codes**, **full data used**,  and **raw exper
 - **results**:
   contains the raw experiment results for all the research questions.
 - **statistical tool**:
-  Contains statistical indicators for all research questions and corresponding statistical results.
+  contains statistical indicators for all research questions and corresponding statistical results.
+- **supplementary file**:
+  contains the specific workloads for 9 subjected systems and detailed experimental results for RQ2 and RQ3.
 - **main.py**:
   the *main program* for using DLiSA, which automatically reads data from csv files, implements *Knowledge Distillation* and *Evolutionary Planning*, and saves the corresponding results and data.
 - **Adaptation_Optimizer.py**
