@@ -1,0 +1,37 @@
+Workload,Algorithm,Mean (Std),$\hat{A}_{12}$ ($p$ value)
+AUFNIRA_z3.637557.smt2,DLiSA-0.3,5.856 (0.011),
+AUFNIRA_z3.637557.smt2,DLiSA-I,5.856 (0.011),0.519 (0.582)
+AUFNIRA_z3.637557.smt2,DLiSA-II,5.858 (0.012),0.558 (0.095)
+LRA_formula_277.smt2,DLiSA-0.3,2.254 (0.608),
+LRA_formula_277.smt2,DLiSA-I,2.12 (0.51),0.555 (0.132)
+LRA_formula_277.smt2,DLiSA-II,1.998 (0.435),0.619 (0.001)
+QF_AUFBV_891_sqlite3.smt2,DLiSA-0.3,0.364 (0.66),
+QF_AUFBV_891_sqlite3.smt2,DLiSA-I,0.302 (0.617),0.506 (0.861)
+QF_AUFBV_891_sqlite3.smt2,DLiSA-II,0.354 (0.627),0.511 (0.77)
+QF_AUFLIA_swap_t1_pp_nf_ai_00010_002.cvc.smt2,DLiSA-0.3,2.324 (0.15),
+QF_AUFLIA_swap_t1_pp_nf_ai_00010_002.cvc.smt2,DLiSA-I,2.313 (0.13),0.503 (0.933)
+QF_AUFLIA_swap_t1_pp_nf_ai_00010_002.cvc.smt2,DLiSA-II,2.303 (0.107),0.508 (0.826)
+QF_BV_bench_3176.smt2,DLiSA-0.3,3.15 (0.111),
+QF_BV_bench_3176.smt2,DLiSA-I,3.173 (0.237),0.532 (0.385)
+QF_BV_bench_3176.smt2,DLiSA-II,3.17 (0.097),0.629 (0.001)
+QF_BV_bench_935.smt2,DLiSA-0.3,1.322 (0.13),
+QF_BV_bench_935.smt2,DLiSA-I,1.313 (0.085),0.513 (0.618)
+QF_BV_bench_935.smt2,DLiSA-II,1.387 (0.245),0.585 (0.006)
+QF_LIA_tightrhombus,DLiSA-0.3,0.292 (0.458),
+QF_LIA_tightrhombus,DLiSA-I,0.221 (0.004),0.532 (0.102)
+QF_LIA_tightrhombus,DLiSA-II,0.249 (0.152),0.522 (0.365)
+QF_LRA_clocksynchro_7clocks.worst_case_skew.induct.smt2,DLiSA-0.3,8.746 (0.005),
+QF_LRA_clocksynchro_7clocks.worst_case_skew.induct.smt2,DLiSA-I,8.746 (0.005),0.508 (0.823)
+QF_LRA_clocksynchro_7clocks.worst_case_skew.induct.smt2,DLiSA-II,8.806 (0.59),0.52 (0.57)
+QF_NRA_hong_9.smt2,DLiSA-0.3,3.181 (0.003),
+QF_NRA_hong_9.smt2,DLiSA-I,3.181 (0.003),0.515 (0.491)
+QF_NRA_hong_9.smt2,DLiSA-II,3.182 (0.004),0.53 (0.237)
+QF_RDL_orb08_888.smt2,DLiSA-0.3,6.816 (0.236),
+QF_RDL_orb08_888.smt2,DLiSA-I,6.804 (0.222),0.502 (0.953)
+QF_RDL_orb08_888.smt2,DLiSA-II,6.817 (0.246),0.513 (0.746)
+QF_UFLIA_xs_23_43.smt2,DLiSA-0.3,7.948 (0.654),
+QF_UFLIA_xs_23_43.smt2,DLiSA-I,7.94 (0.499),0.504 (0.919)
+QF_UFLIA_xs_23_43.smt2,DLiSA-II,7.94 (0.506),0.517 (0.677)
+QF_UF_PEQ018_size6.smt2,DLiSA-0.3,3.878 (0.009),
+QF_UF_PEQ018_size6.smt2,DLiSA-I,3.878 (0.008),0.507 (0.846)
+QF_UF_PEQ018_size6.smt2,DLiSA-II,3.9 (0.148),0.595 (0.014)

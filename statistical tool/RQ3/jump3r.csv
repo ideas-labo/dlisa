@@ -1,0 +1,19 @@
+Workload,Algorithm,Mean (Std),$\hat{A}_{12}$ ($p$ value)
+beethoven.wav,DLiSA-0.3,2.573 (0.828),
+beethoven.wav,DLiSA-I,2.644 (0.629),0.593 (0.023)
+beethoven.wav,DLiSA-II,2.565 (0.624),0.546 (0.263)
+dual-channel.wav,DLiSA-0.3,0.846 (0.197),
+dual-channel.wav,DLiSA-I,0.927 (0.252),0.606 (0.009)
+dual-channel.wav,DLiSA-II,0.908 (0.226),0.592 (0.025)
+helix.wav,DLiSA-0.3,1.309 (0.368),
+helix.wav,DLiSA-I,1.431 (0.384),0.611 (0.007)
+helix.wav,DLiSA-II,1.38 (0.365),0.573 (0.075)
+single-channel.wav,DLiSA-0.3,0.642 (0.076),
+single-channel.wav,DLiSA-I,0.678 (0.136),0.582 (0.045)
+single-channel.wav,DLiSA-II,0.691 (0.141),0.594 (0.021)
+speech.wav,DLiSA-0.3,1.045 (0.246),
+speech.wav,DLiSA-I,1.127 (0.281),0.642 (0.001)
+speech.wav,DLiSA-II,1.174 (0.378),0.631 (0.001)
+sweep.wav,DLiSA-0.3,0.298 (0.018),
+sweep.wav,DLiSA-I,0.307 (0.028),0.622 (0.002)
+sweep.wav,DLiSA-II,0.305 (0.033),0.565 (0.099)

@@ -1,0 +1,28 @@
+Workload,Algorithm,Mean (Std),$\hat{A}_{12}$ ($p$ value)
+Johnny_1280x720_60_short.y4m,DLiSA-0.3,0.933 (0.152),
+Johnny_1280x720_60_short.y4m,DLiSA-I,1.466 (1.755),0.697 ($p$ < 0.001)
+Johnny_1280x720_60_short.y4m,DLiSA-II,0.941 (0.219),0.532 (0.427)
+Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m,DLiSA-0.3,3.496 (0.501),
+Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m,DLiSA-I,5.12 (6.379),0.702 ($p$ < 0.001)
+Netflix_Crosswalk_4096x2160_60fps_10bit_420_short.y4m,DLiSA-II,3.637 (0.64),0.576 (0.063)
+blue_sky_1080p25_short.y4m,DLiSA-0.3,1.313 (0.313),
+blue_sky_1080p25_short.y4m,DLiSA-I,2.131 (2.99),0.616 (0.004)
+blue_sky_1080p25_short.y4m,DLiSA-II,1.334 (0.275),0.552 (0.206)
+pedestrian_area_1080p25_short.y4m,DLiSA-0.3,1.613 (0.373),
+pedestrian_area_1080p25_short.y4m,DLiSA-I,2.277 (2.193),0.699 ($p$ < 0.001)
+pedestrian_area_1080p25_short.y4m,DLiSA-II,1.683 (0.389),0.589 (0.03)
+riverbed_1080p25_short.y4m,DLiSA-0.3,3.185 (0.424),
+riverbed_1080p25_short.y4m,DLiSA-I,4.688 (5.025),0.668 ($p$ < 0.001)
+riverbed_1080p25_short.y4m,DLiSA-II,3.256 (0.529),0.534 (0.409)
+sd_bridge_close_cif_short.y4m,DLiSA-0.3,0.1 (0.016),
+sd_bridge_close_cif_short.y4m,DLiSA-I,0.13 (0.105),0.678 ($p$ < 0.001)
+sd_bridge_close_cif_short.y4m,DLiSA-II,0.102 (0.015),0.561 (0.124)
+sd_city_4cif_short.y4m,DLiSA-0.3,0.589 (0.151),
+sd_city_4cif_short.y4m,DLiSA-I,0.917 (1.191),0.626 (0.002)
+sd_city_4cif_short.y4m,DLiSA-II,0.589 (0.125),0.528 (0.495)
+sd_crew_cif_short.y4m,DLiSA-0.3,0.137 (0.022),
+sd_crew_cif_short.y4m,DLiSA-I,0.187 (0.188),0.656 ($p$ < 0.001)
+sd_crew_cif_short.y4m,DLiSA-II,0.139 (0.024),0.504 (0.922)
+sintel_trailer_2k_720p24_short.y4m,DLiSA-0.3,0.247 (0.034),
+sintel_trailer_2k_720p24_short.y4m,DLiSA-I,0.283 (0.195),0.577 (0.056)
+sintel_trailer_2k_720p24_short.y4m,DLiSA-II,0.251 (0.039),0.514 (0.732)

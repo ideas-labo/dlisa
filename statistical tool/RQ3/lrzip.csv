@@ -1,0 +1,40 @@
+Workload,Algorithm,Mean (Std),$\hat{A}_{12}$ ($p$ value)
+ambivert.wav.tar,DLiSA-0.3,3.137 (0.041),
+ambivert.wav.tar,DLiSA-I,3.158 (0.077),0.616 (0.003)
+ambivert.wav.tar,DLiSA-II,3.151 (0.064),0.626 (0.001)
+artificl.tar,DLiSA-0.3,0.03 (0.0),
+artificl.tar,DLiSA-I,0.03 (0.0),0.5 (1.0)
+artificl.tar,DLiSA-II,0.03 (0.001),0.505 (0.322)
+deepfield.tar,DLiSA-0.3,3.308 (0.015),
+deepfield.tar,DLiSA-I,3.315 (0.023),0.595 (0.011)
+deepfield.tar,DLiSA-II,3.318 (0.03),0.579 (0.035)
+enwik8.tar,DLiSA-0.3,7.131 (0.062),
+enwik8.tar,DLiSA-I,7.145 (0.107),0.53 (0.409)
+enwik8.tar,DLiSA-II,7.155 (0.083),0.582 (0.026)
+fannie_mae_500k.tar,DLiSA-0.3,33.412 (0.109),
+fannie_mae_500k.tar,DLiSA-I,33.507 (0.314),0.56 (0.088)
+fannie_mae_500k.tar,DLiSA-II,33.496 (0.302),0.524 (0.486)
+large.tar,DLiSA-0.3,0.973 (0.007),
+large.tar,DLiSA-I,0.974 (0.006),0.525 (0.421)
+large.tar,DLiSA-II,0.974 (0.008),0.512 (0.706)
+misc.tar,DLiSA-0.3,0.196 (0.005),
+misc.tar,DLiSA-I,0.197 (0.005),0.532 (0.35)
+misc.tar,DLiSA-II,0.196 (0.005),0.505 (0.887)
+silesia.tar,DLiSA-0.3,10.919 (0.029),
+silesia.tar,DLiSA-I,10.921 (0.027),0.541 (0.269)
+silesia.tar,DLiSA-II,10.918 (0.031),0.512 (0.741)
+uiq-32.bin,DLiSA-0.3,9.152 (0.401),
+uiq-32.bin,DLiSA-I,9.25 (0.397),0.606 (0.007)
+uiq-32.bin,DLiSA-II,9.215 (0.453),0.532 (0.419)
+uiq2-16.bin,DLiSA-0.3,5.321 (0.137),
+uiq2-16.bin,DLiSA-I,5.333 (0.157),0.525 (0.461)
+uiq2-16.bin,DLiSA-II,5.399 (0.271),0.546 (0.17)
+uiq2-4.bin,DLiSA-0.3,2.113 (0.043),
+uiq2-4.bin,DLiSA-I,2.122 (0.045),0.572 (0.072)
+uiq2-4.bin,DLiSA-II,2.12 (0.045),0.548 (0.222)
+uiq2-8.bin,DLiSA-0.3,3.495 (0.094),
+uiq2-8.bin,DLiSA-I,3.515 (0.103),0.536 (0.307)
+uiq2-8.bin,DLiSA-II,3.529 (0.111),0.581 (0.025)
+vmlinux-5.10.tar,DLiSA-0.3,2.532 (0.02),
+vmlinux-5.10.tar,DLiSA-I,2.537 (0.023),0.564 (0.068)
+vmlinux-5.10.tar,DLiSA-II,2.541 (0.027),0.582 (0.02)
