@@ -150,13 +150,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/results/acceleration_batlik.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/results/batlik/tuning_results/DLiSA-0.3/optimized_pop_config_run_0/corona_indices.csv">
           <value>
             <Attribute>
@@ -193,6 +186,13 @@
           </value>
         </entry>
         <entry key="/results/batlik/tuning_results/DLiSA-0.3/optimized_pop_perf_run_0/similarity_score.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/results/dconvert/tuning_results/D-SOGA/optimized_pop_perf_run_99/evolutionary_process_in_jpeg-large/generation_0__indices.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1592,42 +1592,63 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ2/convergence_batlik_DLiSA-0.3_vs_D-SOGA.csv">
+        <entry key="/statistical tool/RQ1/dconvert.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ3/batlik.csv">
+        <entry key="/statistical tool/RQ1/h2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ3/batlik_DLiSA-0.3_vs_DLiSA-I.csv">
+        <entry key="/statistical tool/RQ1/jump3r.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ3/sum_count/batlik_DLiSA-0.3_vs_DLiSA-I.csv">
+        <entry key="/statistical tool/RQ1/kanzi.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ3/z3_DLiSA-0.3_vs_DLiSA-II.csv">
+        <entry key="/statistical tool/RQ1/lrzip.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/statistical tool/RQ4/Normalized_performance.csv">
+        <entry key="/statistical tool/RQ1/x264.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/statistical tool/RQ1/xz.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/statistical tool/RQ1/z3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/statistical tool/RQ2/convergence_batlik_DLiSA-0.3_vs_FEMOSAA.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -1642,20 +1663,6 @@
           </value>
         </entry>
         <entry key="/statistical tool/RQ4/scott_knott.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/statistical tool/RQ5/similarity_score_batlik.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/statistical tool/sorted_weights_perf_values.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
