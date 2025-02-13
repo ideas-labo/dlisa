@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Distilled Lifelong Self-Adaptation for Configurable Systems
 
 > Modern configurable systems provide tremendous opportunities for engineering future intelligent software systems.
