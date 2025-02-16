@@ -108,7 +108,8 @@ The `supplementary file` contains the specific workloads for 9 subjected systems
 1. Download all the files into the same folder/clone the repository.
 
 2. Install the specified version of Python:
-   the codes have been tested with **Python 3.7 - 3.9**, Other versions might cause errors.
+   - The codes have been tested and is ** recommended to run with 3.9**, Other versions might cause errors.
+   - Using other versions may require adjusting dependency versions; otherwise, package compatibility issues may occur.
 
 3. Using the command line: cd to the folder with the codes, and install all the required packages by running:
 
@@ -177,6 +178,33 @@ By implementing this script, you can **quantitatively compare** optimization met
 
 The script **`statistical tool/RQ2_efficiency_analysis.py`** performs convergence analysis to evaluate the efficacy of different algorithms on the specified systems. Please refer to the paper for the detailed calculation process. The results are stored in the **`statistical tool/RQ2/`** folder.
 
+### Stored Format  
+
+The results are stored in CSV files, comparing the efficiency (convergence speed) of **DLiSA** against baseline algorithms on different systems. For example, the file: `convergence_kanzi_DLiSA-0.3_vs_FEMOSAA.csv` 
+compares **DLiSA-0.3** (DLiSA with parameter $\alpha$=0.3) and **FEMOSAA** on the **Kanzi** system across different workloads.  
+
+ 
+| workload       | baseline_b | baseline_T | compared_m | s           |
+|----------------|------------|------------|------------|-------------|
+| ambivert       | 80         | 1.8298     | 39         | 2.051282051 |
+| artificl       | 80         | 0.1657     | 39         | 2.051282051 |
+| deepfield      | 80         | 0.2926     | —          | -1          |
+| enwik8         | 80         | 2.6246     | 38         | 2.105263158 |
+| fannie_mae_500k| 80         | 1.8841     | 38         | 2.105263158 |
+| large          | 80         | 0.6867     | 39         | 2.051282051 |
+| misc           | 80         | 0.2426     | 39         | 2.051282051 |
+| silesia        | 80         | 5.3858     | 38         | 2.105263158 |
+| vmlinux        | 80         | 1.0921     | 39         | 2.051282051 |
+|                |            |            |            |             |
+#### **Column Explanation**
+- **workload**: The tested workload in the Kanzi system.
+- **baseline_b**: A baseline, b, is identified for the compared algorithm, representing the smallest number of measurements necessary for it to reach its best performance, i.e., **baseline_T**, averaging over 100 runs.
+- **baseline_T**: The baseline algorithm’s best performance, averaging over 100 runs.
+- **compared_m**: The smallest number of measurements required by the DLiSA to get a result that is equivalent or better than **baseline_T**.
+- **s**: The speedup of **DLiSA** over its counterpart, where `s=-1` indicates that convergence was not achieved.  
+  - In the paper, we use `s = N/A` to represent cases where DLiSA cannot achieve the **baseline_T** reached by its counterpart.
+
+
 ## RQ3: What benefits do ranked workload similarity analysis and weighted configuration seeding each provide?
 
 The script **`statistical tool/RQ3_Non-parametric.py`** performs **non-parametric test** and **effect size test** for pairwise comparisons between DLiSA and its variants. The results are stored in the **`statistical tool/RQ3/`** folder.
@@ -193,6 +221,7 @@ The results are stored in a CSV file with the following columns:
 | single-channel.wav   | 0.6425         | 0.6778       | 0.04459703 | 0.582   | 1     |
 | speech.wav           | 1.0449         | 1.1274       | 0.000527182| 0.6416  | 1     |
 | sweep.wav            | 0.2975         | 0.3074       | 0.002268491| 0.62165 | 1     |
+|                      |                |              |            |         |       |
 
 - **Environment**: Represents different workloads tested.
 - **{algorithm}mean**: Represents the mean value of 100 independent runs for each algorithm (e.g., **DLiSA-0.3_Mean**, **DLiSA-I_Mean**).
@@ -209,3 +238,11 @@ We expect that when the **A12 value is greater than or equal to 0.56** and the *
 ## RQ4: How does $\alpha$ affect DLiSA’s performance?
 
 The script **`statistical tool/RQ4_Scott-Knott.py`** performs **Scott-Knott** ranking analysis to evaluate the performance of DLiSA with different parameter $\alpha$. The results are stored in the **`statistical tool/RQ4/`** directory, with each system's ranking saved in a CSV file: `statistical tool/R4/{system_name}.csv`.
+
+## **Note on Reproducibility**  
+
+Since the workload order is randomly shuffled across **100 independent runs**, and the optimization algorithms used are population-based methods, the **initial population** may vary in each execution. As a result, the reproduced results may exhibit slight statistical fluctuations compared to the reported data in the paper. However, these variations should not affect the overall conclusions of the study.
+
+### **Execution Time Estimation**  
+- Running `main.py` typically takes **around 3 hours** to complete.  
+- The evaluation scripts for **RQ1 ~ RQ4** in the `statistical tool` folder generally take only **a few minutes** each.  
