@@ -108,7 +108,7 @@ The `supplementary file` contains the specific workloads for 9 subjected systems
 1. Download all the files into the same folder/clone the repository.
 
 2. Install the specified version of Python:
-   - The codes have been tested and is ** recommended to run with 3.9**, Other versions might cause errors.
+   - The codes have been tested and is **recommended to run with Python 3.9**, Other versions might cause errors.
    - Using other versions may require adjusting dependency versions; otherwise, package compatibility issues may occur.
 
 3. Using the command line: cd to the folder with the codes, and install all the required packages by running:
@@ -195,7 +195,7 @@ compares **DLiSA-0.3** (DLiSA with parameter $\alpha$=0.3) and **FEMOSAA** on th
 | misc           | 80         | 0.2426     | 39         | 2.051282051 |
 | silesia        | 80         | 5.3858     | 38         | 2.105263158 |
 | vmlinux        | 80         | 1.0921     | 39         | 2.051282051 |
-|                |            |            |            |             |
+
 #### **Column Explanation**
 - **workload**: The tested workload in the Kanzi system.
 - **baseline_b**: A baseline, b, is identified for the compared algorithm, representing the smallest number of measurements necessary for it to reach its best performance, i.e., **baseline_T**, averaging over 100 runs.
@@ -221,7 +221,7 @@ The results are stored in a CSV file with the following columns:
 | single-channel.wav   | 0.6425         | 0.6778       | 0.04459703 | 0.582   | 1     |
 | speech.wav           | 1.0449         | 1.1274       | 0.000527182| 0.6416  | 1     |
 | sweep.wav            | 0.2975         | 0.3074       | 0.002268491| 0.62165 | 1     |
-|                      |                |              |            |         |       |
+
 
 - **Environment**: Represents different workloads tested.
 - **{algorithm}mean**: Represents the mean value of 100 independent runs for each algorithm (e.g., **DLiSA-0.3_Mean**, **DLiSA-I_Mean**).
