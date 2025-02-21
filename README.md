@@ -115,7 +115,20 @@ The `supplementary file` contains the specific workloads for 9 subjected systems
 
         pip install -r requirements.txt
         
-4. Install R: R is required to run the experiments. Please follow the installation instructions for your operating system at [R Project](https://cran.r-project.org/mirrors.html).
+4. Install R: R is required to run the experiments and **version 4.4 or later** is recommended. Please follow the installation instructions for your operating system at [R Project](https://cran.r-project.org/mirrors.html).
+
+5. The  **devtools**  package is required for running the statistical analysis scripts (**RQ1 and RQ4**). Our scripts dynamically check for `devtools` package and install it automatically if it is missing. This ensures that users can run the scripts without additional setup. However, if the automatic installation fails due to system-specific configurations, users can manually install `devtools` in R by running:
+
+        ```r
+        install.packages("devtools")
+
+6. For Ubuntu users, the following **Debian packages** should be installed before running the statistical analysis script (e.g., `RQ1_Scott-Knott.py`):
+        
+        ```bash
+        sudo apt-get update && sudo apt-get install -y \
+        libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev \
+        libharfbuzz-dev libfribidi-dev libfontconfig1-dev \
+        libcurl4-openssl-dev
 
 # Run *DLiSA*
 
@@ -221,7 +234,6 @@ The results are stored in a CSV file with the following columns:
 | single-channel.wav   | 0.6425         | 0.6778       | 0.04459703 | 0.582   | 1     |
 | speech.wav           | 1.0449         | 1.1274       | 0.000527182| 0.6416  | 1     |
 | sweep.wav            | 0.2975         | 0.3074       | 0.002268491| 0.62165 | 1     |
-
 
 - **Environment**: Represents different workloads tested.
 - **{algorithm}mean**: Represents the mean value of 100 independent runs for each algorithm (e.g., **DLiSA-0.3_Mean**, **DLiSA-I_Mean**).
